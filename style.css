@@ -34,6 +34,7 @@ p{
   letter-spacing: 2.5px;
   padding: 5px;
   animation: type 4s steps(60, end);
+  font-weight: 600;
 }
 @keyframes type{
   0% { opacity: 0; }
@@ -68,7 +69,7 @@ button:hover{
   margin-bottom: 0px;
   letter-spacing: 1px;
   font-size: 25px;
-  color: rgb(167, 167, 167);
+  color: rgb(67, 60, 60);
   font-weight: bold;
 }
 
@@ -84,7 +85,7 @@ button:hover{
   width:700px;
   background-color: rgb(219, 229, 226);
   justify-content: center;
-  box-shadow: rgba(0, 0, 0, 0.2) 0px 18px 50px -10px;
+  box-shadow: rgba(211, 11, 148, 0.9) 0px 18px 50px -10px;
   border: 4px solid rgba(249, 249, 249, 0.29);
   margin: 10px auto;
 }
