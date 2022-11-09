@@ -1,0 +1,137 @@
+body{
+  justify-content: center;
+  text-align: center;
+  font-family:'Dosis', sans-serif;
+  letter-spacing: 6px;
+  margin:10px auto;
+  background-color: rgb(235, 246, 246);
+}
+img{
+  height:200px;
+  width:200px;
+  border-radius: 50%;
+  opacity: .9;
+
+}
+h1{
+  font-size:40px;
+  color:rgb(54, 53, 53)
+}
+
+.about{
+  letter-spacing: 2px;
+  margin:2px 5px;
+}
+
+p{
+  letter-spacing: 2.5px;
+  padding: 5px;
+  animation: type 4s steps(60, end);
+}
+@keyframes type{
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+.button{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.h2-button{
+  letter-spacing: 1px;
+  font-size: 20px
+}
+
+button{
+  cursor:pointer;
+  background-color: rgb(143, 171, 171);
+  border: 2px solid rgb(175, 181, 183);
+  border-radius: 10px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(16, 16, 16, 0.485) 0px 8px 16px -8px;
+  font-size: 23px;
+  margin-left: 20px;
+  color:rgb(230, 226, 226)
+}
+button:hover{
+  background-color: rgb(255, 130, 180);
+}
+
+.h2-find-me{
+  margin-bottom: 0px;
+  letter-spacing: 1px;
+  font-size: 25px;
+  color: rgb(167, 167, 167);
+  font-weight: bold;
+}
+
+.div-social{
+
+  margin-bottom:10px;
+  display: flex;
+  justify-content: center;
+}
+
+.main-container{
+  border-radius: 10px;
+  width:700px;
+  background-color: rgba(177, 249, 225, 0.228);
+  justify-content: center;
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 18px 50px -10px;
+  border: 4px solid rgba(249, 249, 249, 0.29);
+  margin: 10px auto;
+}
+.two{
+  padding:10px 0px;
+
+}
+
+a{
+  color:rgb(102, 102, 116);
+  font-size: 30px;
+  margin:0px 10px;
+}
+a:hover{
+  font-size: 40px;
+  color:  rgb(255, 130, 180);
+}
+
+/* ---------------- */
+.fade-in {
+animation: fadeIn ease 20s;
+-webkit-animation: fadeIn ease 20s;
+-moz-animation: fadeIn ease 20s;
+-o-animation: fadeIn ease 20s;
+-ms-animation: fadeIn ease 20s;
+}
+
+@keyframes fadeIn {
+0% {
+  opacity:0;
+}
+100% {
+  opacity:1;
+}
+}
+
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .main-container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .main-container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .main-container {
+    width: 300px;
+  }
+}
